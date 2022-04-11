@@ -19,6 +19,7 @@ export default function SimpleMap() {
         bootstrapURLKeys={{ key: "" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
+        yesIWantToUseGoogleMapApiInternals
       >
         <AnyReactComponent
           lat={59.955413}
