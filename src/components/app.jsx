@@ -8,7 +8,9 @@ class App extends Component {
         <div className="flat-list">
           <FlatList />
         </div>
-        <div className="map-container"></div>
+        <div className="map-container">
+          <h1> HELLO WORLD </h1>
+        </div>
       </div>
       )
   }

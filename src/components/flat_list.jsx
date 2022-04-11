@@ -7,9 +7,10 @@ class FlatList extends Component {
       <div className="flat-list">
         {flats.map((flat) => {
 
-
-          return ( <div className="card">
-            <p> {flat.name} </p>
+          return (<div className="card" style={{backgroundImage: `url(${flat.imageUrl})`}}>
+            <div className="card-description">
+              <h2> {flat.name} </h2>
+            </div>
           </div>
           )
         })
