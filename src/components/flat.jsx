@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import flats from './flats';
 
 class Flat extends Component {
   handleClick = () => {
     this.props.selectFlat(this.props.index);
+    console.log(this.props);
   }
 
   render() {
